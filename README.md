@@ -6,3 +6,26 @@
 
 
 设置Toolbar属性 app:titleCentered=true 标题居中
+
+
+
+
+## Android Studio
+
+* build.gradle
+
+ 	```
+  allprojects {
+ 	  repositories {
+      maven { url 'https://jitpack.io' }
+    }
+  }
+ 	```
+  
+* 项目 build.gradle
+
+ 	```
+  dependencies {
+	        compile 'com.github.tangsh:toolbar:v1.0'
+	}
+	```
