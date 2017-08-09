@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <com.tsh.toolbar.Toolbar
+      android:id="@+id/toolbar1"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:layout_marginTop="10dp"
+      android:background="@color/colorPrimaryDark"
+      app:title="title 没有居中"
+      app:titleTextColor="#ffffff"
+      app:titleCentered="false"
+      />
+
+  <com.tsh.toolbar.Toolbar
+      android:id="@+id/toolbar2"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:layout_marginTop="10dp"
+      android:background="@color/colorPrimary"
+      app:title="在地震中，互联网巨头们都做了什么？"
+      app:titleTextColor="#ffffff"
+      app:titleCentered="true"
+      />
+
+  <com.tsh.toolbar.Toolbar
+      android:id="@+id/toolbar3"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:layout_marginTop="10dp"
+      android:background="@color/colorAccent"
+      app:title="在地震中，互联网巨头们都做了什么？"
+      app:titleCentered="true"
+      app:titleTextColor="#ffffff"
+      />
+
+  <com.tsh.toolbar.Toolbar
+      android:id="@+id/toolbar4"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:layout_marginTop="10dp"
+      android:background="@color/colorAccent"
+      app:title="居中标题"
+      app:titleCentered="true"
+      app:titleTextColor="#ffffff"
+      />
+
+  <com.tsh.toolbar.Toolbar
+      android:id="@+id/toolbar5"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:layout_marginTop="10dp"
+      android:background="@color/colorAccent"
+      app:title="带返回键的标题"
+      app:titleCentered="true"
+      app:titleTextColor="#ffffff"
+      />
+
+
+  <com.tsh.toolbar.Toolbar
+      android:id="@+id/toolbar6"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:layout_marginTop="10dp"
+      android:background="@color/colorAccent"
+      app:title="互联网巨头们都做了什么？"
+      app:titleCentered="true"
+      app:titleTextColor="#ffffff"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:textColor="@color/colorAccent"
+      android:text="设置Toolbar属性 app:titleCentered=true 标题居中"
+      />
+
+</LinearLayout>
