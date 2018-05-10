@@ -28,6 +28,6 @@
 
  	```
   dependencies {
-	        compile 'com.github.tangsh:toolbar:v1.0'
+	        compile 'com.github.tangsh:toolbar:v1.1'
 	}
 	```
