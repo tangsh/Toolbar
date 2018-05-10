@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  
-  <declare-styleable name="Toolbar">
-    <attr name="titleCentered" format="boolean" />
-  </declare-styleable>
+
+    <item name="Toolbar_leftViewId" type="id"/>
+
+    <declare-styleable name="Toolbar">
+        <attr name="titleCentered" format="boolean"/>
+        <attr name="elevation" format="dimension"/>
+    </declare-styleable>
+
 </resources>
